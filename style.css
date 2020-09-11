@@ -1,0 +1,53 @@
+:root {
+  --primary-color: #101918;
+  --first-color: #5e3449;
+  --secondary-color: #959ea7;
+  --third-color: #d62828;
+  --fourth-color: #f77f00;
+  --fifth-color: #fcbf49;
+  --sixth-color: #eae2b7;
+  --seventh-color: #f2f2f2;
+  --space: 1rem;
+  --eighth-color: #800080;
+  --nineth-color: #6f7574;
+}
+
+.banner {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 850px;
+}
+
+.carousel-caption {
+  padding-bottom: 420px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.carousel-caption h3 {
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  animation-delay: 2s;
+}
+
+.carousel-caption .btn {
+  margin-top: 3rem;
+  animation-delay: 3s;
+  background: var(--fifth-color);
+  color: var(--seventh-color);
+  font-weight: bolder;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+.carousel-caption .btn:hover {
+  background: var(--seventh-color);
+  color: var(--primary-color);
+}
+
+.carousel-caption h3 span {
+  color: var(--fifth-color);
+}
+
+/* responsive slider */
